@@ -1,0 +1,2 @@
+docker cp /root/my-instance/searxng.png 8b29f90449de:/usr/local/searxng/searx/static/themes/simple/img/searxng.png
+docker cp searxng:/usr/local/searxng/searx/templates/simple /root/my-instance/
