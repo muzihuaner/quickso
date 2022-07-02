@@ -1,0 +1,1 @@
+ docker run --rm              -d -p 8081:8080              -v "${PWD}/searxng:/etc/searxng"              -e "BASE_URL=http://localhost:8081/"              -e "INSTANCE_NAME=my-instance"              huangetech/searxng-huangetech:1.2.0
